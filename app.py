@@ -37,6 +37,9 @@ def webcam_feed():
 st.title("Real-Time Gesture Recognition App")
 st.write("This app detects hand gestures in real-time using your webcam feed.")
 
+# Display an image (adjust the image path accordingly)
+st.image(r"C:\Users\Harshita Mehta\handgesture\fd3186778f22153d75a61ac49cf4f7e6.jpg", caption='Gesture Recognition Demo', use_column_width=True)
+
 # Start webcam feed button
 if st.button('Start Webcam'):
     stframe = st.empty()
